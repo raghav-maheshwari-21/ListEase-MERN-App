@@ -1,0 +1,245 @@
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  transition: transform .2s;
+}
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  font-weight: 600;
+  font-family: cursive;
+  text-decoration: none;
+  
+}
+
+.nav-ul li:hover{
+  transform: scale(1.05);
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: rgb(44, 131, 165);
+}
+
+.nav-ul-right li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul-right li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul-right{
+  text-align: right;
+  padding: 5px;
+  margin: 0;
+  background-color: rgb(44, 131, 165);
+}
+
+
+.footer-style{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-family: cursive;
+  width: 100%;
+  background-color: rgb(44, 131, 165);
+}
+
+.register,.add-product,.login{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register,.add-product  h1{
+  color: skyblue;
+  font-family: cursive;
+}
+
+
+.invalid-input {
+  display: block;
+  margin-top: -16px;
+  margin-left: -196px;
+  color: red;
+  font-size: 14px;
+}
+
+.inputBox{
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+}
+
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 100px;
+  background-color: skyblue;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.appButton:hover{
+  color: skyblue;
+  background-color: #fff;
+  border: 2px solid skyblue;
+}
+
+
+.login h1{
+  color: skyblue;
+}
+
+.login p{
+  color: #fff;
+  font-family: cursive;
+}
+
+.login span{
+  color: rgb(175, 212, 227);
+  text-decoration: none;
+  font-family: cursive;
+}
+.login span:hover{
+  text-decoration: underline;
+}
+
+.register p{
+  color: #fff;
+  font-family: cursive;
+}
+
+.register span{
+  color: rgb(175, 212, 227);
+  text-decoration: none;
+  font-family: cursive;
+}
+.register span:hover{
+  text-decoration: underline;
+}
+
+.product{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product h1{
+  color: #fff;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.product-list-table li{
+  display: inline-block;
+  border: 1px solid rgb(44, 131, 165);
+  background: rgb(44, 131, 165);
+  color: white;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 600;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list-map li{
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product ul{
+  margin: 0;
+}
+
+
+.operationButton{
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+  background: skyblue;
+}
+
+.operationButton a{
+  color: white;
+  text-decoration: none;
+}
+
+.profile-section h1{
+  text-align: center;
+  font-weight: 600;
+  font-family: cursive;
+  color: #fff;
+}
+
+.profile-section h3{
+  text-align: center;
+  font-weight: 500;
+  font-family: cursive;
+  color: #fff;
+}
+
+.search-box{
+    width: 300px;
+    margin: 24px;
+    height: 38px;
+    padding-left: 19px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+}
+
+.add-product h1{
+  color: #fff;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
